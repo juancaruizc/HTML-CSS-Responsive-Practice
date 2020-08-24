@@ -32,10 +32,8 @@ nav a {
     margin-top:5%;
 }
 
-header {
-  background-image: url(../images/header.jpg)
-  padding: 800px 100px;
-  margin: 100px;
-  
+.header {
+  background: url(/images/header.jpg);
+  width:100%;
 }
 
