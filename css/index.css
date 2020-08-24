@@ -1,0 +1,41 @@
+* {
+    font-family: 'Oxygen', sans-serif;
+    background-color:#FBFFFB;
+    border:2px solid red;
+}
+
+
+.logo {
+    width:5%;
+    height:5%;
+    margin-left:2%;
+}
+
+.nav-bar {
+    display:flex;
+    opacity: 0.9;
+    border:2px solid red;
+
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    width:40%;
+    justify-content:space-evenly;
+    margin-left:50%;
+}
+
+nav a {
+    color:green;
+    text-decoration:none;
+    margin-top:5%;
+}
+
+header {
+  background-image: url(../images/header.jpg)
+  padding: 800px 100px;
+  margin: 100px;
+  
+}
+
