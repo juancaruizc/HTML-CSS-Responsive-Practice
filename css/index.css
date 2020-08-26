@@ -88,7 +88,6 @@ h1 {
     align-items: center;
     width:50%;
     margin-top:10%;
-    border:2px solid red;
 }
 
 .sp {
@@ -102,7 +101,6 @@ h1 {
 .succulents {
     display:flex;
     justify-content:space-evenly;
-    border:2px solid red;
 }
 
 h3 {
@@ -127,7 +125,9 @@ h3 {
 
 .right-div2 {
     margin-top:5%;
-    border:2px solid red;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
 }
 
   .succulents-image {
@@ -154,6 +154,9 @@ h3 {
 
   .right-div3 {
     margin-top:10%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     width:50%;
   }
 
