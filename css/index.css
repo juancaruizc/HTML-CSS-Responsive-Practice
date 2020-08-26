@@ -1,7 +1,7 @@
 * {
     font-family: 'Oxygen', sans-serif;
-    background-color:#FBFFFB;
-    border:2px solid red;
+    /* background-color:#FBFFFB; */
+    /* border:2px solid red; */
 }
 
 
@@ -13,9 +13,8 @@
 
 .nav-bar {
     display:flex;
-    opacity: 0.9;
-    border:2px solid red;
-
+    opacity: 0.8;
+    background:white;
 }
 
 nav{
@@ -27,13 +26,177 @@ nav{
 }
 
 nav a {
-    color:green;
+    color:#266035;
     text-decoration:none;
     margin-top:5%;
 }
 
-.header {
-  background: url(/images/header.jpg);
+header {
+  background-image: url('../images/header.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:90vh;
   width:100%;
 }
+
+.sub-header {
+    height:80%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.header-button {
+  color:#266035;
+  padding:1%;
+  font-size:1rem;
+}
+
+h1 {
+    color:white;
+    font-size:3rem;
+}
+
+.our-story {
+    background-image: url('../images/about-img.jpg');
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:120vh;
+    width:100%;
+    display:flex;
+    justify-content: flex-end;x
+}
+
+.os-header {
+    color: #266035;
+    font-size:3rem;
+    display:flex;
+}
+
+.our-plants {
+    text-align:center;
+    color:#266035;
+    font-size:3rem;
+}
+
+.right-div1 {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:50%;
+    margin-top:10%;
+    border:2px solid red;
+}
+
+.sp {
+    width:50%;
+    font-size:1.5rem;
+}
+
+.left-div1 {
+    width:50%;
+}
+.succulents {
+    display:flex;
+    justify-content:space-evenly;
+    border:2px solid red;
+}
+
+h3 {
+    color: #266035;
+    font-size:2.5rem;
+}
+
+
+.button2 {
+    width:20%;
+    background-color:#266035;
+    color:white;
+    padding:2%;
+    text-align:center;
+    font-size:1rem;
+    border:none;
+  }
+
+.cacti {
+    display:flex;
+}
+
+.right-div2 {
+    margin-top:5%;
+    border:2px solid red;
+}
+
+  .succulents-image {
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+  }
+
+  .cacti-image {
+    display:flex;
+    justify-content: flex-end;
+    width:50%;
+  }
+
+  .tropicals {
+    display:flex;
+    
+  }
+
+  .left-div3 {
+    width:50%;
+    border:2px solid red;
+  }
+
+  .right-div3 {
+    margin-top:10%;
+    width:50%;
+  }
+
+  .tropicals-image {
+      width:100%;
+      height:60%;
+  }
+
+
+
+
+
+  footer {
+      background-color: #266035;
+      color:white;
+  }
+
+  .footer-header {
+      text-align:center;
+  }
+
+  .footer-image {
+      width:25%;
+      display:flex;
+  }
+
+  .footer-header {
+      font-size:3rem;
+      text-align:center;
+      padding-top:5%;
+  }
+
+  #story {
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+  }
+  .osp {
+    width:60%;
+    height:15%;
+    margin-left:25%;
+    font-size:1.5rem;
+  }
 

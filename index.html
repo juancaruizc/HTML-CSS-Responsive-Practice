@@ -11,9 +11,10 @@
     <title>Document</title>
 </head>
 <body>
- <div class = "header">
+
+ <header>
     <div class = "nav-bar">
-        <img class = "logo" src = /images/logo.png alt = "green plants">
+        <img class = "logo" src = /images/logo.png alt="green plants">
         <nav>
            <a href = "#" class = "home">Home</a>
            <a href = "#" class = "about">About</a>
@@ -21,45 +22,56 @@
            <a href = "#" class = "contact">Contact</a>
         </nav>
     </div>
+        <div class = "sub-header">
+            <h1>The Watering Can</h1>
+            <button class = 'header-button'>Shop Our Indoor Plant Sale!</button>
+        </div>
+    </header>
 
-    <div class = "sub-header">
-        <h1>The Watering Can</h1>
-        <!-- <img class = "header-image" src = /images/header.jpg alt = "green plants"> -->
-        <button>Shop Our Indoor Plant Sale!</button>
-    </div>
-  </div>
-
-    <section class = "about">
-         <h2>Our Story</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-         <img class = "about-image" src = /images/about-img.jpg alt = "green plant inside cup of water">
+    <section class = "our-story">
+        <div id = "story">
+         <h2 class = "os-header">Our Story</h2>
+         <p class = "osp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
     </section>
+
+    <h2 class = 'our-plants'>Our Plants</h2>
     
-    <section class = "our-plants">
         <div class = "succulents">
-            <h3>Succulents</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <img class = "succulents-image" src = /images/succulants.jpg alt = "aerial view of 5 green plants">
-            <button>Shop Now!</button>
+          <div class = "left-div1">
+           <img class = "succulents-image" src = /images/succulants.jpg alt="aerial view of 5 green plants">
+          </div>
+           <div class = "right-div1">
+          <h3>Succulents</h3>
+           <p class = "sp" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <button class = "button2">Shop Now!</button>
+           </div>
+
         </div>
         <div class = "cacti">
+            <div class = "right-div2">
             <h3>Cacti</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <img class = "succulents-image" src = /images/cacti.jpg alt = "green cacti">
-            <button>Shop Now!</button>
+            <p class = "sp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button class = "button2">Shop Now!</button>
         </div>
+            <img class = "cacti-image" src = /images/cacti.jpg alt="green cacti"> 
+        </div>
+
         <div class = "tropicals">
+            <div class = "left-div3">
+            <img class = "tropicals-image" src = /images/tropicals.jpg alt="green plant">
+             </div>
+            <div class = "right-div3">
             <h3>Tropicals</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <img class = "succulents-image" src = /images/tropicals.jpg alt = "green plant">
-            <button>Shop Now!</button>
+            <p class = "sp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button class = "button2">Shop Now!</button>
+         </div>
         </div>
 
         <footer>
-            <div class = "footer-info">
+            <h2 class = "footer-header">Get In Touch !</h2>
 
-            <h2>Get In Touch !</h2>
-
+            <div class = "left-div4">
             <h3>Find us here:</h3>
 
             <address>123 plant lane<br>Bloomfield Ontario,<br>Canada L2G OX7</address>
@@ -67,9 +79,11 @@
             <contact>+1-613-978-8282<br>info@thewateringcan.ca<br>@thewateringcan on the socials</contact>
             </div>
 
-            <img class = "footer-image" src = "/images/shop.jpg" alt = "shop on green plants">
+            <div class = "right-div4">
+             <img class = "footer-image" src = "/images/shop.jpg" alt="shop on green plants">
+            </div>
         </footer>
-    </section>
+
 
 
 
